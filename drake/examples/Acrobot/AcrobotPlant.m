@@ -78,7 +78,8 @@ classdef AcrobotPlant < Manipulator
     end
     
     function x = getInitialState(obj)
-      x = .1*randn(4,1);
+%       x = .1*randn(4,1);
+      x = zeros(4,1);
     end
     
     function n = getNumPositions(obj)

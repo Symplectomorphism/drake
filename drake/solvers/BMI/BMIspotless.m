@@ -86,6 +86,7 @@ classdef BMIspotless < spotsosprog
       end
       options = spot_sdp_default_options();
       options.verbose = 0;
+%      options.verbose = 1;
       info = 2;
       trial_count = 1;
       while(trial_count <= obj.trial_max && info > 1)
